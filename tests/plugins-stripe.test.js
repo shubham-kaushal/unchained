@@ -1,4 +1,4 @@
-import Stripe from 'stripe';
+import Stripe from 'stripe'; // eslint-disable-line
 import { createLoggedInGraphqlFetch, setupDatabase } from './helpers';
 import { USER_TOKEN } from './seeds/users';
 import { SimplePaymentProvider } from './seeds/payments';
